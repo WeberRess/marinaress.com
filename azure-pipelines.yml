@@ -1,15 +1,10 @@
-trigger:
-- master
+trigger: - master
 
-pool:
-vmImage: ‘Ubuntu-16.04’
+pool: vmImage: ‘Ubuntu-16.04’
 
-steps:
-- task: NodeTool@0
+steps: - task: NodeTool@0
 
-inputs:
-
-versionSpec: ‘8.x’
+inputs: versionSpec: ‘8.x’
 
 displayName: ‘Install Node.js’
 
